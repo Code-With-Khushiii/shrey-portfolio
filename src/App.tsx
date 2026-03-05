@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ChevronDown, Target, TrendingUp, Mail, Phone, Menu, Linkedin, Award, Users, Lightbulb, Rocket, ExternalLink, X } from 'lucide-react';
+import { ChevronDown, Target, TrendingUp, Mail, Phone, Menu, Users, Lightbulb, Rocket, ExternalLink, X } from 'lucide-react';
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -198,7 +198,7 @@ function App() {
 
             {/* Logo */}
             <div className="text-xl md:text-2xl font-display text-black tracking-wide">
-              SOHAN ANAND HANAGANDI
+              SHREY KAMDAR
             </div>
 
             {/* Desktop Menu */}
